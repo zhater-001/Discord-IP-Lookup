@@ -4,8 +4,8 @@ import json
 import re
 
 client = discord.Client()
-weather_api_key = "KEY" #API key from https://openweathermap.org/
-discord_api_key = "TOKEN" #Discord bot token from developer portal
+346a34108a1c66282f3fefb3619ff568 = "KEY" #API key from https://openweathermap.org/
+2b063d8d785ae90a0ec59fb38bd3c9563cff4352c8cbfee2ed62e5d341476e13 = "TOKEN" #Discord bot token from developer portal
 
 @client.event
 async def on_ready():
@@ -64,5 +64,5 @@ async def on_message(message):
             except: 
                 print("Error")
 
-client.run(discord_api_key) #Discord API key 
+client.run(2b063d8d785ae90a0ec59fb38bd3c9563cff4352c8cbfee2ed62e5d341476e13) #Discord API key 
 
